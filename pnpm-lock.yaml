@@ -12,6 +12,7 @@ specifiers:
   '@vue/cli-plugin-vuex': ~5.0.0
   '@vue/cli-service': ~5.0.0
   '@vue/eslint-config-typescript': ^9.1.0
+  axios: ^0.26.1
   core-js: ^3.8.3
   element-plus: ^2.1.4
   eslint: ^7.32.0
@@ -31,6 +32,7 @@ specifiers:
   vuex: ^4.0.0
 
 dependencies:
+  axios: 0.26.1
   core-js: 3.21.1
   element-plus: 2.1.4_vue@3.2.31
   normalize.css: 8.0.1
@@ -2758,6 +2760,14 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
+  /axios/0.26.1:
+    resolution: {integrity: sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==}
+    dependencies:
+      follow-redirects: 1.14.9_debug@4.3.4
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
   /babel-loader/8.2.3_fa907c5a4f16ccc493e21649ccc59574:
     resolution: {integrity: sha512-n4Zeta8NC3QAsuyiizu0GkmRcQ6clkV9WFUnUf1iXP//IeSKbWjofW3UHyZVwlOB4y039YQKefawyTn64Zwbuw==}
     engines: {node: '>= 8.9'}
@@ -4292,7 +4302,6 @@ packages:
         optional: true
     dependencies:
       debug: 4.3.4
-    dev: true
 
   /fork-ts-checker-webpack-plugin/6.5.0_2e7138ec0cd295d0b0618689813c42dc:
     resolution: {integrity: sha512-cS178Y+xxtIjEUorcHddKS7yCMlrDPV31mt47blKKRfMd70Kxu5xruAFE2o9sDY6wVC5deuob/u/alD04YYHnw==}
