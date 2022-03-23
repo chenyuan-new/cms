@@ -11,11 +11,8 @@ import HelloWorld from '@/components/HelloWorld.vue';
 
 export default defineComponent({
   name: 'HomeView',
-  setup() {
-    return {
-      defineComponent,
-      HelloWorld,
-    };
+  components: {
+    HelloWorld,
   },
 });
 </script>

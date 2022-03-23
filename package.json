@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "element-plus": "^2.1.4",
+    "normalize.css": "^8.0.1",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
@@ -35,6 +37,8 @@
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
     "prettier": "^2.4.1",
-    "typescript": "~4.5.5"
+    "typescript": "~4.5.5",
+    "unplugin-auto-import": "^0.6.6",
+    "unplugin-vue-components": "^0.18.3"
   }
 }
